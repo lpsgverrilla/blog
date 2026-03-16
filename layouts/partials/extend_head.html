@@ -1,0 +1,8 @@
+{{- /* Umami Analytics */ -}}
+{{- if site.Params.analytics.umami.websiteId }}
+<script defer src="{{ site.Params.analytics.umami.src }}" data-website-id="{{ site.Params.analytics.umami.websiteId }}"></script>
+{{- end }}
+
+{{- /* Additional SEO meta tags */ -}}
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="{{ .Permalink }}">
