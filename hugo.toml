@@ -47,7 +47,7 @@ buildExpired = false
     url = "/index.xml"
 
   [params.analytics.umami]
-    websiteId = ""
+    websiteId = "6c26c031-0e52-4d95-a993-8798afb40e8a"
     src = "https://analytics.eyeraft.com/script.js"
 
   [params.cover]
